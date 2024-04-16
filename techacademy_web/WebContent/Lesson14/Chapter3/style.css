@@ -1,18 +1,28 @@
-nav ul {
-	   position: fixed;
-	   top: 10px;
-	   left: 10px;
+header{
+	height: 50px;
+	background-color: #ffdddd;	
 }
-	
-nav ul li {
-        display: inline-block;
-        width: 100px;
-        background-color: #dddddd;
-        text-align: center;
-        padding: 5px;
+#wrapper {
+    overflow: hidden;
 }
-
- .long-content {
-    height:300px;
-    background-color: skyblue;
- }
+#main {
+	float: left;
+	width: 60%;
+	height: 130px;
+	background-color: #ddffdd;
+}
+aside {
+	float: right;
+	width: 30%;
+	height: 100px;
+	background-color: #ffddff;
+}
+.clear {
+	clear: both;
+}
+footer {
+	clear: both;
+	margin-top: 50px;
+	height: 50px;
+	background-color: #ddddff;
+}

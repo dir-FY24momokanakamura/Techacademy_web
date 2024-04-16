@@ -1,21 +1,7 @@
-header {
-    height: 50px;
-    background-color: #ffdddd;
+.long{
+	width: 200%;
+	background: skyblue;
 }
-#wrapper {
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-}
-#main {
-	width: 34%;
-    background-color: #ddffdd
-}
-aside{
-	width: 33%;
-    background-color: #ffddff;
-}
-footer {
-    height: 50px;
-    background-color: #ddddff;
+.box {
+  overflow: hidden;
 }
